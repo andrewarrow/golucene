@@ -1,4 +1,6 @@
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
+golucene
+test_index
 *.o
 *.a
 *.so

@@ -12,7 +12,7 @@ import (
 	"os"
 )
 
-func main() {
+func main2() {
 	util.SetDefaultInfoStream(util.NewPrintStreamInfoStream(os.Stdout))
 	index.DefaultSimilarity = func() index.Similarity {
 		return search.NewDefaultSimilarity()
